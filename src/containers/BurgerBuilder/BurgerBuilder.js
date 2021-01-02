@@ -21,9 +21,6 @@ class BurgerBuilder extends Component {
 
     componentDidMount() {
         this.props.onInitIngredients();
-        //     axios.get('https://my-burger-shop-app-default-rtdb.europe-west1.firebasedatabase.app/ingredients.json')
-        //         .then(res => this.setState({ ingredients: res.data }))
-        //         .catch(error => this.setState({ error: true }));
     }
 
     updatePurchaseState = (ingredients) => {
